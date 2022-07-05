@@ -45,6 +45,10 @@
 .sous-titre{
     font-size: 2vw;
 }
+.sous-titre1{
+    font-size: 1.5vw;
+    color: black;
+}
 .reseaux{
     height: 4vw;
     width: 4vw;
@@ -97,20 +101,47 @@ li:hover{
     align-items: flex-start;
     justify-content: space-evenly;
 }
+.rectangle1{
+    padding-left: 3vw;
+    height: 12vw;
+    width: 25vw;
+}
+.rectangle2{
+    padding-left: 1vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    align-items: flex-start;
+    height: 8vw;
+    width: 17vw;
+}
 .cercle1{
     height: 10vw;
     width: 10vw;
     border: 0.6vw solid rgba(0, 0, 0, 0.615);
     border-radius: 100%;
 }
+.cercle2{
+    height: 5vw;
+    width: 5vw;
+    border: 0.4vw solid rgba(0, 0, 0, 0.615);
+    border-radius: 100%;
+    cursor: pointer;
+}
 .icon-service{
     height: 5vw;
     width: 5vw;
+}
+.icon-valeure{
+    height: 2vw;
+    width: 2vw;
 }
 .icon-services{
     height: 4vw;
     width: 4vw;
 }
+
 /*fin des composants*/
 /*debut du header*/
 header{
@@ -302,6 +333,39 @@ select{
     border: 0.6vw solid #B4C7E7;
 }
 /*fin section services*/
+
+
+/*debut section valeure*/
+.valeure{
+    height: 46vw;
+    width: 100vw;
+}
+.h4-valeure{
+    width: 85vw;
+    height: 5vw;
+    padding-left: 3vw;
+    justify-content: flex-start;
+}
+.valeureb{
+    height: 42vw;
+    width: 100vw;
+    justify-content: flex-start;
+}
+.valeureb1{
+    height: 15vw;
+    width: 90vw;
+}
+.valeureb2{
+    height: 15vw;
+    width: 90vw;
+}
+.traffi1{border: 0.4vw solid #74A2D6;}
+.reputation1{border: 0.4vw solid  #F7D06F;}
+.conversion1{border: 0.4vw solid #EF86B0;}
+.Customers1{border: 0.4vw solid #B4C7E7;}
+.Marketing1{border: 0.4vw solid #74A2D6;}
+.Digita1{border: 0.4vw solid #F7D06F;}
+/*fin section valeure*/
 
 
 

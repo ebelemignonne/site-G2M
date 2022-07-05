@@ -14,7 +14,7 @@
 /*propriete media quere mobile*/
 @media screen and (max-width: 600px) {
     /*display none*/
-    .b1, .p-bas-header, .header-b, .h4-strategie, .p-strategie, .h4-service, .p-services{
+    .b1, .p-bas-header, .header-b, .h4-strategie, .p-strategie, .h4-service, .p-services, .h4-valeure{
             display: none;
         }
     ul{
@@ -28,7 +28,7 @@
         font-size: 2.5vw;
     }
     .police-degradé{
-        font-size: 2.5vw;
+        font-size: 2vw;
         color: rgba(0, 0, 0, 0.447);
     }
     .orange{
@@ -63,6 +63,35 @@
         width: 22vw;
         border-radius: 100%;
     }
+    .cercle2{
+        height: 12vw;
+        width: 12vw;
+        border: 0.4vw solid rgba(0, 0, 0, 0.615);
+        border-radius: 100%;
+        cursor: pointer;
+    }
+    .rectangle1{
+        padding-left: 0vw;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        height: 40vw;
+        width: 35vw;
+        flex-direction: column;
+    }
+    .rectangle2{
+        padding-left: 0vw;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        align-items: flex-start;
+        height: 20vw;
+        width: 30vw;
+    }
+    .icon-valeure{
+        height: 5vw;
+        width: 5vw;
+    }
     .icon-service{
         height: 10vw;
         width: 10vw;
@@ -73,6 +102,10 @@
     }
     .sous-titre{
         font-size: 4vw;
+    }
+    .sous-titre1{
+        font-size: 3vw;
+        color: black;
     }
     /*fin propriete*/
 
@@ -163,6 +196,8 @@
         color: white;
     }
 /*fin du header*/
+
+
 /*debut de strategie*/
     .strategie{
         flex-direction: column;
@@ -197,6 +232,8 @@
         width: 60vw;
     }
 /*fin de strategie*/
+
+
 /*debut de la section service*/
 .services{
     height: 180vw;
@@ -225,6 +262,40 @@
     border: 2vw solid #B4C7E7;
 }
 /*fin de la section service*/
+
+
+/*debut de la section valeure*/
+.valeure{
+    height: 150vw;
+    width: 100vw;
+}
+
+.valeureb{
+    height: 145vw;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.valeureb1{
+    height: 145vw;
+    width: 90vw;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.valeureb2{
+    height: 145vw;
+    width: 90vw;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+.traffi1{border: 0.8vw solid #74A2D6;}
+.reputation1{border: 0.8vw solid  #F7D06F;}
+.conversion1{border: 0.8vw solid #EF86B0;}
+.Customers1{border: 0.8vw solid #B4C7E7;}
+.Marketing1{border: 0.8vw solid #74A2D6;}
+.Digita1{border: 0.8vw solid #F7D06F;}
+/*fin de la section valeure*/
 
 }
 
