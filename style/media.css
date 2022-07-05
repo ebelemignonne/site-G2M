@@ -1,0 +1,263 @@
+/*propriete media quere desktop*/
+@media screen and (min-width: 601px) {
+    .menu, .p-bas-header1, .h4-strategie1, .p-strategie1, .h4-service1, .p-services1{
+        display: none;
+    }
+}
+
+
+/*fin media quere desktop*/
+
+
+
+
+/*propriete media quere mobile*/
+@media screen and (max-width: 600px) {
+    /*display none*/
+    .b1, .p-bas-header, .header-b, .h4-strategie, .p-strategie, .h4-service, .p-services{
+            display: none;
+        }
+    ul{
+        display: none;
+    }
+    /*fin display none*/
+
+
+    /*propriete*/
+    .police-p{
+        font-size: 2.5vw;
+    }
+    .police-degradé{
+        font-size: 2.5vw;
+        color: rgba(0, 0, 0, 0.447);
+    }
+    .orange{
+        color: #ED7F10;
+        font-size: 3vw;
+        letter-spacing: 2px;
+    }
+    .titre{
+        font-size: 6vw;
+    }
+    .reseaux{
+        height: 5vw;
+        width: 5vw;
+    }
+    .reseaux1{
+        height: 2.7vw;
+        width: 2.7vw;
+    }
+    .titre1{
+        font-size: 5vw;
+    }
+    .rectangle{
+        padding-left: 3vw;
+        height: 48vw;
+        width: 40vw;
+        border-radius: 2vw;
+        align-items: flex-start;
+        justify-content: space-evenly;
+    }
+    .cercle1{
+        height: 22vw;
+        width: 22vw;
+        border-radius: 100%;
+    }
+    .icon-service{
+        height: 10vw;
+        width: 10vw;
+    }
+    .icon-services{
+        height: 8vw;
+        width: 8vw;
+    }
+    .sous-titre{
+        font-size: 4vw;
+    }
+    /*fin propriete*/
+
+
+    /*debut du header*/
+    header{
+        height: 130vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    nav{
+        height: 20vw;
+    }
+    .logo{
+        height: 17vw;
+        width: 25vw;
+        cursor: pointer;
+        transform: translateX(4vw);
+    }
+    .b1{
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+        color: white;
+        transform: none;
+    }
+    .p1{
+        color: white;
+        transform: translateX(9vw);
+        cursor: pointer;
+        font-size: 3vw;
+    }
+    .langue{
+        cursor: pointer;
+        height: 3vw;
+        width: 3vw;
+    }
+
+    select{
+        transform: translateX(-10vw);
+    
+    }
+
+    .menu{
+        width: 10vw;
+        height: 10vw;
+        transform: translateX(-8vw);
+    }
+/*fin nav bar*/
+
+
+/*debut contenaire header*/
+    .contenaire-header{
+        height: 110vw;
+    }
+    .header-a{
+        height: 100vw;
+        flex-direction: column-reverse;
+        width: 100vw;
+        justify-content: space-evenly;
+
+    }
+    .header-a-gauche{
+        height: 55vw;
+        width: 60vw;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+    .header-a-droite{
+        height: 50vw;
+        width: 60vw;
+    }
+    .p-header1{
+        color: white;
+    }
+    .bas-header{
+        height: 8vw;
+        width: 50vw;
+    }
+    .button-heder{
+        color: white;
+    }
+    .play{
+        height: 7vw;
+        width: 7vw;
+        transform: translateX(1vw);
+    }
+    .p-bas-header1{
+        color: white;
+    }
+/*fin du header*/
+/*debut de strategie*/
+    .strategie{
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 160vw;
+        width: 100vw;
+    }
+    .strategie-G{
+        height: 50vw;
+        width: 80vw;
+    }
+    .strategie-G1{
+        position: relative;
+        height: 50vw;
+        width: 46vw;
+        top: 10vw;
+        left: -4vw;
+        border-radius: 2vw;
+        background-color: #ECEDF3;
+    }
+    .img-strategie{
+        position: absolute;
+        height: 48vw;
+        width: 70vw;
+        left: -7vw;
+        top: 3vw;
+    }
+    .strategie-D{
+        justify-content: space-evenly;
+        align-items: flex-start;
+        height: 70vw;
+        width: 60vw;
+    }
+/*fin de strategie*/
+/*debut de la section service*/
+.services{
+    height: 180vw;
+    width: 100vw;
+}
+.services-a{
+    height: 25vw;
+    width: 60vw;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.services-b{
+    height: 150vw;
+    align-items: flex-start;
+    width: 60vw;
+    transform: none;
+    flex-direction: column;
+}
+.anal{
+    border: 2vw solid #FAB472;
+}
+.planif{
+    border: 2vw solid #E963A4;
+}
+.market{
+    border: 2vw solid #B4C7E7;
+}
+/*fin de la section service*/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
