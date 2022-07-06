@@ -25,11 +25,14 @@
     background-repeat: no-repeat;
 }
 .police-degradé{
-    font-size: 1.2vw;
+    font-size: 1.3vw;
+    line-height: 2vw;
+
     color: rgba(0, 0, 0, 0.447);
 }
 .police-p{
-    font-size: 1.2vw;
+    font-size: 1.3vw;
+    line-height: 2vw;
 }
 .orange{
     color: #ED7F10;
@@ -137,9 +140,8 @@ li:hover{
     justify-content: space-evenly;
 }
 .rectangle1{
-    padding-left: 3vw;
     height: 12vw;
-    width: 25vw;
+    width: 27vw;
 }
 .rectangle2{
     padding-left: 1vw;
@@ -149,7 +151,7 @@ li:hover{
     align-items: center;
     align-items: flex-start;
     height: 8vw;
-    width: 17vw;
+    width: 19vw;
 }
 .cercle1{
     height: 10vw;
@@ -289,7 +291,7 @@ select{
     color: white;
 }
 .bas-header{
-    width: 28vw;
+    width: 30vw;
 }
 .button-heder{
     color: white;
@@ -309,6 +311,7 @@ select{
 
 .p-bas-header{
     color: white;
+    width: 10vw;
 }
 
 .header-a-droite{
@@ -414,11 +417,11 @@ i{
 }
 .valeureb1{
     height: 15vw;
-    width: 90vw;
+    width: 83vw;
 }
 .valeureb2{
     height: 15vw;
-    width: 90vw;
+    width: 83vw;
 }
 .traffi1{border: 0.4vw solid #74A2D6;}
 .reputation1{border: 0.4vw solid  #F7D06F;}
@@ -489,13 +492,6 @@ i{
     background-image: url('image/seo.png');
     background-size: cover;
     background-repeat: no-repeat;
-}
-.pro-b{
-    height: 10vw;
-    width: 10vw;
-    background-image: url('image/PINK\ \(2\).png');
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .projet-b-D{
     height: 35vw;

@@ -1,6 +1,6 @@
 /*propriete media quere desktop*/
 @media screen and (min-width: 601px) {
-    .menu, .p-bas-header1, .h4-strategie1, .p-strategie1, .h4-service1, .p-services1{
+    .h4-projet1, .h1-mission1, .menu, .p-bas-header1, .h4-strategie1, .p-strategie1, .h4-service1, .p-services1{
         display: none;
     }
 }
@@ -14,7 +14,7 @@
 /*propriete media quere mobile*/
 @media screen and (max-width: 600px) {
     /*display none*/
-    .b1, .p-bas-header, .header-b, .h4-strategie, .p-strategie, .h4-service, .p-services, .h4-valeure{
+    .linkeding, .facebook2, .projet-b-D,.h4-projet, .h1-mission, .b1, .p-bas-header, .header-b, .h4-strategie, .p-strategie, .h4-service, .p-services, .h4-valeure{
             display: none;
         }
     ul{
@@ -26,9 +26,12 @@
     /*propriete*/
     .police-p{
         font-size: 2.5vw;
+        line-height: 4vw;
     }
     .police-degradé{
         font-size: 2vw;
+        line-height: 4vw;
+
         color: rgba(0, 0, 0, 0.447);
     }
     .orange{
@@ -298,6 +301,161 @@
 .Digita1{border: 0.8vw solid #F7D06F;}
 /*fin de la section valeure*/
 
+
+/*debut de la section gris*/
+.gris{
+    height: 280vw;
+    width: 100vw;
+    justify-content: space-evenly;
+    background-color: #ECEDF3;
+    border-radius: 30px;
+}
+.mission{
+    height: 100vw;
+    width: 90%;
+    flex-direction: column;
+}
+.mission-G{
+    height: 55vw;
+    width: 80%;
+    padding-left: 2vw;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.mission-D{
+    height: 40%;
+    position: relative;
+    width: 35%;
+    right: -21vw;
+    border-radius: 15px;
+    background-color: #DDDFEB;
+}
+.mission-D-A{
+    position: absolute;
+    height: 35vw;
+    width: 65vw;
+    right: 8vw;
+    border-radius: 15px;
+    background-color: white;
+}
+/*fin de la section gris*/
+
+
+/*debut de la section projet*/
+.projet{
+    height: 105vw;
+    width: 100%;
+}
+.projet-a{
+    height: 35vw;
+    width: 80%;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.projet-a1{
+    height: 50%;
+    align-items: flex-start;
+}
+.projet-a2{
+    width: 100%;
+    justify-content: flex-end;
+}
+.img-projet1{
+    transform: rotateZ(180deg);
+}
+.projet-b{
+    height: 60vw;
+    width: 80%;
+}
+.projet-b-G{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+
+}
+.image-gris{
+    height: 45vw;
+    width: 90%;
+    flex-direction: column;
+    margin-top: -6vw;
+}
+.image-a{
+    height: 100%;
+    width: 80%;
+}
+.image-b{
+    height: 100%;
+    width: 80%;
+}
+/*fin de la section projet*/
+
+/*debut section temoignage*/
+.temoignage{
+    height: 140vw;
+    width: 100vw;
+    flex-direction: column;
+}
+.temoignage-a{
+    height: 110vw;
+    width: 80%;
+    flex-direction: column;
+}
+.temoignage-a-G{
+    height: 50vw;
+    width: 60vw;
+}
+
+.temoignage-a-D{
+    height: 50%;
+    width: 60vw;
+    align-items: flex-start;
+}
+/*fin section temoignage*/
+
+
+/*debut section s'abonner*/
+.s-abonner{
+    height: 100vw;
+    width: 100vw;
+}
+.sabonner{
+    height: 70%;
+    width: 80%;
+    border-radius: 10px;
+    background-color: #ECEDF3;
+    justify-content: space-around;
+}
+.abonner{
+    align-items: flex-start;
+    padding-left: 7vw;
+    align-items: center;
+    height: 60%;
+    width: 80%;
+}
+.form-abonner{
+    width: 100%;
+    height: 50%;
+    flex-direction: column;
+}
+.email-abonner{
+    width: 60%;
+    border: none;
+    padding-left: none;
+    height: 8vw;
+    width: 87%;
+    background-color: white;
+}
+.bouton-abonner{
+    border: none;
+    color: white;
+    height: 8vw;
+    width: 90%;
+    cursor: pointer;
+}
+
+
+/*fin section s'abonner*/
 }
 
 
