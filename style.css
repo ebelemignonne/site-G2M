@@ -84,6 +84,41 @@ li:hover{
     background-color: rgba(187, 187, 187, 0.064);
     cursor: pointer;
 }
+.image-a1:hover{
+    -moz-box-shadow:1px 3px 15px #555;
+    -webkit-box-shadow:1px 3px 15px #555;
+    box-shadow:1px 3px 15px #555;
+    transition: 0.5s;
+    background-color: rgba(187, 187, 187, 0.064);
+    cursor: pointer;
+}
+.facebook2:hover{
+    -moz-box-shadow:1px 3px 15px #555;
+    -webkit-box-shadow:1px 3px 15px #555;
+    box-shadow:1px 3px 15px #555;
+    transition: 0.5s;
+    background-color: rgba(187, 187, 187, 0.064);
+    cursor: pointer;
+    background-color: white;
+}
+.linkeding:hover{
+    -moz-box-shadow:1px 3px 15px #555;
+    -webkit-box-shadow:1px 3px 15px #555;
+    box-shadow:1px 3px 15px #555;
+    transition: 0.5s;
+    background-color: rgba(187, 187, 187, 0.064);
+    cursor: pointer;
+    background-color: white;
+}
+.temoignage-a-G1:hover{
+    -moz-box-shadow:1px 3px 15px #555;
+    -webkit-box-shadow:1px 3px 15px #555;
+    box-shadow:1px 3px 15px #555;
+    transition: 0.5s;
+    background-color: rgba(187, 187, 187, 0.064);
+    cursor: pointer;
+}
+
 /*fin des hovers*/
 
 /* creation des composants*/
@@ -141,8 +176,24 @@ li:hover{
     height: 4vw;
     width: 4vw;
 }
-
+.icon-abonner{
+    height: 7vw;
+    width: 7vw;
+}
+.image-a1{
+    height: 94%;
+    width: 47%;
+}
+.icone-header{
+    height: 3vw;
+    width: 3vw;
+    border: none;
+    border-radius: 100%;
+    background-color: #555879;
+}
 /*fin des composants*/
+
+
 /*debut du header*/
 header{
     height: 47vw;
@@ -246,9 +297,16 @@ select{
 .play{
     height: 3vw;
     width: 3vw;
+    border: 0.1vw solid whitesmoke;
     cursor: pointer;
+    border-radius: 100%;
+    background-color: #555879;
     transform: translateX(1vw);
 }
+#i-play{
+    color: white;
+}
+
 .p-bas-header{
     color: white;
 }
@@ -264,14 +322,17 @@ select{
     width: 100vw;
     justify-content: flex-end;
 }
-.faceboock{
+.facebook{
     transform: translateX(-8vw);
 }
-.tweeter{
+.twitter{
     transform: translateX(-7.5vw);
 }
 .instagram{
-    transform: translateX(-8vw);
+    transform: translateX(-7vw);
+}
+i{
+    color: white;
 }
 /*fin du header*/
 
@@ -366,6 +427,211 @@ select{
 .Marketing1{border: 0.4vw solid #74A2D6;}
 .Digita1{border: 0.4vw solid #F7D06F;}
 /*fin section valeure*/
+
+
+/*debut section gris*/
+.gris{
+    height: 110vw;
+    width: 100vw;
+    justify-content: space-evenly;
+    background-color: #ECEDF3;
+    border-radius: 30px;
+}
+.mission{
+    height: 30vw;
+    width: 90%;
+}
+.mission-G{
+    height: 20vw;
+    width: 45%;
+    padding-left: 2vw;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.mission-D{
+    height: 90%;
+    position: relative;
+    width: 35%;
+    right: 2vw;
+    border-radius: 20px;
+    background-color: #DDDFEB;
+}
+.mission-D-A{
+    position: absolute;
+    height: 20vw;
+    width: 35vw;
+    right: 5vw;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.projet{
+    height: 55vw;
+    width: 100%;
+}
+.projet-a{
+    height: 8vw;
+    width: 90%;
+}
+.img-projet1{
+    transform: rotateZ(180deg);
+}
+.projet-b{
+    height: 40vw;
+    width: 90%;
+}
+.projet-b-G{
+    height: 35vw;
+    width: 38vw;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 20px;
+    background-image: url('image/seo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pro-b{
+    height: 10vw;
+    width: 10vw;
+    background-image: url('image/PINK\ \(2\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.projet-b-D{
+    height: 35vw;
+    width: 38vw;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 20px;
+    background-image: url('image/seo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image-gris{
+    height: 15vw;
+    width: 90%;
+    margin-top: -6vw;
+}
+.image-a{
+    height: 100%;
+    width: 48%;
+}
+.pink{background-image: url('image/modele.png');}
+.photo{background-image: url('image/phototgraphe.png');}
+.image-b{
+    height: 100%;
+    width: 48%;
+}
+.emg{background-image: url('image/EMG.png');}
+.lorem{background-image: url('image/fleur.png');}
+/*fin section gris*/
+
+
+/*debut section temoignage*/
+.temoignage{
+    height: 46vw;
+    width: 100vw;
+}
+.temoignage-a{
+    height: 30vw;
+    width: 80%;
+}
+.temoignage-a-G{
+    height: 100%;
+    width: 35vw;
+    position: relative;
+    left: -7vw;
+    background-image: url('image/Group\ 13.png');
+}
+
+.temoignage-a-D{
+    height: 70%;
+    width: 40vw;
+    align-items: flex-start;
+}
+/*fin section temoignage*/
+
+
+/*debut section s'abonner*/
+.s-abonner{
+    height: 40vw;
+    width: 100vw;
+}
+.sabonner{
+    height: 50%;
+    width: 80%;
+    position: relative;
+    border-radius: 20px;
+    background-color: #ECEDF3;
+    justify-content: space-around;
+}
+.abonner{
+    align-items: flex-start;
+    position: absolute;
+    padding-left: 3vw;
+    height: 50%;
+    width: 44%;
+    left: 0vw;
+}
+.form-abonner{
+    width: 75%;
+    height: 5vw;
+}
+.email-abonner{
+    width: 60%;
+    border: none;
+    background-color: white;
+}
+.bouton-abonner{
+    border: none;
+    color: white;
+    background-color: #ED7F10;
+    cursor: pointer;
+}
+.facebook2{
+    position: absolute;
+    border: 1px solid rgba(159, 159, 159, 0.54);
+    box-shadow:1px 1px 5px rgba(85, 85, 85, 0.653);
+    height: 85%;
+    width: 22%;
+    right: 23vw;
+    top: 6vw;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.linkeding{
+    position: absolute;
+    border: 1px solid rgba(159, 159, 159, 0.54);
+    box-shadow:1px 1px 5px rgba(85, 85, 85, 0.653);
+    height: 85%;
+    width: 22%;
+    right: 3vw;
+    bottom: 6vw;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.hr-abonner{
+    height: 35%;
+    width: 100%;
+}
+.hr1{
+    height: 1vw;
+    width: 70%;
+    border: transparent;
+    margin-bottom: 1vw;
+    border-radius: 50px;
+    background-color: #ECEDF3;
+}
+.hr2{
+    height: 1vw;
+    width: 45%;
+    border: transparent;
+    border-radius: 50px;
+    background-color: #ECEDF3;
+}
+/*fin section s'abonner*/
 
 
 
