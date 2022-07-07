@@ -254,7 +254,7 @@ header{
     .strategie{
         flex-direction: column;
         justify-content: space-evenly;
-        height: 180vw;
+        height: 200vw;
         width: 100vw;
     }
     .strategie-G{
@@ -280,19 +280,22 @@ header{
     .strategie-D{
         justify-content: space-evenly;
         align-items: flex-start;
-        height: 80vw;
+        height: 110vw;
         width: 80vw;
+    }
+    .p-strategie1{
+        width: 100%;
     }
 /*fin de strategie*/
 
 
 /*debut de la section service*/
 .services{
-    height: 240vw;
+    height: 260vw;
     width: 100vw;
 }
 .services-a{
-    height: 45vw;
+    height: 47vw;
     width: 80vw;
     justify-content: space-around;
     align-items: flex-start;
@@ -302,7 +305,7 @@ header{
     margin-top: 4vw;
 }
 .services-b{
-    height: 180vw;
+    height: 200vw;
     align-items: flex-start;
     width: 90vw;
     transform: none;
@@ -322,7 +325,7 @@ header{
 
 /*debut de la section valeure*/
 .valeure{
-    height: 150vw;
+    height: 160vw;
     width: 100vw;
 }
 
@@ -334,7 +337,8 @@ header{
 }
 .valeureb1{
     height: 145vw;
-    width: 50%;
+    width: 45%;
+    padding-left: 4vw;
     justify-content: space-evenly;
     flex-direction: column;
 }
@@ -384,7 +388,7 @@ header{
 .mission-D-A{
     position: absolute;
     height: 40vw;
-    width: 75vw;
+    width: 72.5vw;
     right: 8vw;
     border-radius: 10px;
     background-color: white;
@@ -399,7 +403,7 @@ header{
 }
 .projet-a{
     height: 35vw;
-    width: 80%;
+    width: 87%;
     align-items: flex-start;
     flex-direction: column;
     justify-content: space-between;
@@ -447,19 +451,23 @@ header{
 
 /*debut section temoignage*/
 .temoignage{
-    height: 140vw;
+    height: 190vw;
     width: 100vw;
+    background-color: #E963A4;
     flex-direction: column;
 }
 .temoignage-a{
-    height: 140vw;
+    height: 160vw;
     width: 90%;
+    background-color: #B4C7E7;
     justify-content: space-between;
     flex-direction: column;
 }
 .temoignage-a-G{
-    height: 70vw;
-    width: 80vw;
+    height: 80vw;
+    width: 90vw;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
 }
 .temoignage-a-D{
     height: 40%;
