@@ -495,8 +495,13 @@ i{
     width: 100%;
 }
 .projet-a{
-    height: 8vw;
+    height: 10vw;
     width: 90%;
+}
+.projet-a1{
+    height: 70%;
+    margin-left: 2vw;
+    align-items: flex-start;
 }
 .img-projet1{
     transform: rotateZ(180deg);
@@ -540,8 +545,15 @@ i{
     height: 100%;
     width: 48%;
 }
-.emg{background-image: url('image/EMG.png');}
-.lorem{background-image: url('image/fleur.png');}
+.emg{
+    background-image: url('image/EMG.png');
+    transform: translateY(1.8vw);
+}
+.lorem{
+    background-image: url('image/fleur.png');
+    transform: translateY(-0.8vw);
+
+}
 /*fin section gris*/
 
 
@@ -654,7 +666,7 @@ i{
 
 /*debut  footer*/
 .footer{
-    height: 100vw;
+    height: 120vw;
     width: 100vw;
     display: flex;
     justify-content: space-evenly;
@@ -665,8 +677,9 @@ i{
     justify-content: space-evenly ;
 }
 .formulair{
-    height: 50vw;
+    height: 60vw;
     width: 80%;
+    margin-top: 5vw;
     border-radius: 20px;
     justify-content: space-evenly;
     background-color: white;
@@ -715,7 +728,7 @@ i{
 .foot-b{
     height: 20vw;
     width: 90vw;
-    margin-top: -5vw;
+    margin-top: 8vw;
     justify-content: space-between;
 }
 .pied{
@@ -740,6 +753,7 @@ i{
     width: 90vw;
     position: relative;
     bottom: 5vw;
+    top: 3vw;
     background-color: rgba(255, 255, 255, 0.134);
 }
 .fin{
