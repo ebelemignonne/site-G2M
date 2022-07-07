@@ -731,6 +731,15 @@ i{
     margin-top: 8vw;
     justify-content: space-between;
 }
+.facebook1{
+    margin: 0.5vw;
+}
+.twitter1{
+}
+.instagram1{
+    margin: 0.5vw;
+
+}
 .pied{
     transform: translateX(-6vw);
 
@@ -740,9 +749,15 @@ i{
 
 }
 .pied1{
-    margin-right: -5vw;
-    margin-top: -8vw;
+    height: 5vw;
+    width: 15vw;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
 }
+
 .pied-logo{
     height: 8vw;
     width: 14vw;

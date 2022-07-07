@@ -132,6 +132,10 @@
         border-radius: 100%;
         background-color: #6F7398;
     }
+    .image-a1{
+        height: 94%;
+        width: 40%;
+    }
     /*fin propriete*/
 
 
@@ -398,16 +402,20 @@
 .image-gris{
     height: 45vw;
     width: 90%;
-    flex-direction: column;
+    flex-direction: column-reverse;
     margin-top: -6vw;
 }
 .image-a{
     height: 100%;
     width: 80%;
+    flex-direction: row-reverse;
+
 }
 .image-b{
     height: 100%;
     width: 80%;
+    flex-direction: row-reverse;
+
 }
 /*fin de la section projet*/
 
@@ -563,8 +571,8 @@
 
 }
 .pied1{
-    margin-left: 8vw;
-    margin-top: 10vw;
+    width: 20vw;
+    margin-left: -1vw;
 }
 .pied-logo{
     height: 8vw;
@@ -586,6 +594,15 @@
 }
 .fin-g{
     text-align: center;
+}
+.facebook1{
+    margin: 0.5vw;
+}
+.twitter1{
+}
+.instagram1{
+    margin: 0.5vw;
+
 }
 /*fin du s'footer*/
 }
