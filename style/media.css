@@ -1,6 +1,6 @@
 /*propriete media quere desktop*/
 @media screen and (min-width: 601px) {
-    .p-foot1,.p-abonner1,.p-header1,.h1-head1,.fin-g1, .h1-foot1,.h4-projet1, .h1-mission1, .menu, .p-bas-header1, .h4-strategie1, .p-strategie1, .h4-service1, .p-services1{
+    .fin-g1,.p-foot1,.p-abonner1,.p-header1,.h1-head1,.fin-g1, .h1-foot1,.h4-projet1, .h1-mission1, .menu, .p-bas-header1, .h4-strategie1, .p-strategie1, .h4-service1, .p-services1{
         display: none;
     }
 }
@@ -14,7 +14,7 @@
 /*propriete media quere mobile*/
 @media screen and (max-width: 600px) {
     /*display none*/
-    .p-foot,.p-abonner,.p-header,.h1-head,.fin-g1,.fin-d, .fin-d1, .h1-foot,.linkeding, .facebook2, .projet-b-D,.h4-projet, .h1-mission, .b1, .p-bas-header, .header-b, .h4-strategie, .p-strategie, .h4-service, .p-services, .h4-valeure{
+    .fin-g,.p-foot,.p-abonner,.p-header,.h1-head,.fin-d, .fin-d1, .h1-foot,.linkeding, .facebook2, .projet-b-D,.h4-projet, .h1-mission, .b1, .p-bas-header, .header-b, .h4-strategie, .p-strategie, .h4-service, .p-services, .h4-valeure{
             display: none;
         }
     ul, label{
@@ -637,7 +637,8 @@ header{
 .facebook1{
     margin: 0.5vw;
 }
-.twitter1{
+.fin-g1{
+    text-align: center;
 }
 .instagram1{
     margin: 0.5vw;
