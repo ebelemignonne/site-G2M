@@ -1,6 +1,6 @@
 /*propriete media quere desktop*/
 @media screen and (min-width: 601px) {
-    .h4-projet1, .h1-mission1, .menu, .p-bas-header1, .h4-strategie1, .p-strategie1, .h4-service1, .p-services1{
+    .fin-g1, .h1-foot1,.h4-projet1, .h1-mission1, .menu, .p-bas-header1, .h4-strategie1, .p-strategie1, .h4-service1, .p-services1{
         display: none;
     }
 }
@@ -14,25 +14,35 @@
 /*propriete media quere mobile*/
 @media screen and (max-width: 600px) {
     /*display none*/
-    .linkeding, .facebook2, .projet-b-D,.h4-projet, .h1-mission, .b1, .p-bas-header, .header-b, .h4-strategie, .p-strategie, .h4-service, .p-services, .h4-valeure{
+    .fin-g1,.fin-d, .fin-d1, .h1-foot,.linkeding, .facebook2, .projet-b-D,.h4-projet, .h1-mission, .b1, .p-bas-header, .header-b, .h4-strategie, .p-strategie, .h4-service, .p-services, .h4-valeure{
             display: none;
         }
-    ul{
+    ul, label{
         display: none;
     }
     /*fin display none*/
 
 
-    /*propriete*/
+    /*proprietées*/
     .police-p{
         font-size: 2.5vw;
         line-height: 4vw;
+    }
+    .white{
+        font-size: 2.5vw;
+        line-height: 4vw;
+        color: white;
     }
     .police-degradé{
         font-size: 2vw;
         line-height: 4vw;
 
         color: rgba(0, 0, 0, 0.447);
+    }
+    .white-degradé{
+        font-size: 2.5vw;
+        line-height: 4vw;
+        color: rgba(255, 255, 255, 0.447);
     }
     .orange{
         color: #ED7F10;
@@ -91,6 +101,11 @@
         height: 20vw;
         width: 30vw;
     }
+    .champ{
+        width: 60vw;
+        height: 5vw;
+        border: 1px solid rgba(0, 0, 0, 0.447);
+    }
     .icon-valeure{
         height: 5vw;
         width: 5vw;
@@ -109,6 +124,13 @@
     .sous-titre1{
         font-size: 3vw;
         color: black;
+    }
+    .icone-footer{
+        height: 6vw;
+        width: 6vw;
+        border: none;
+        border-radius: 100%;
+        background-color: #6F7398;
     }
     /*fin propriete*/
 
@@ -448,14 +470,135 @@
 }
 .bouton-abonner{
     border: none;
-    color: white;
     height: 8vw;
     width: 90%;
     cursor: pointer;
 }
-
-
 /*fin section s'abonner*/
+
+
+/*debut  footer*/
+.footer{
+    height: 300vw;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #56597A;
+}
+.ecrit{
+    height: 20vw;
+    justify-content: space-evenly ;
+}
+.h1-foot1{
+    text-align: center;
+}
+.formulair{
+    height: 135vw;
+    width: 80%;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.form1{
+    height: 80vw;
+    width: 80%;
+    justify-content: center;
+}
+.for-a{
+    margin: none;
+    margin-bottom: 4.5vw;
+    height: 18vw;
+    flex-direction: column;
+}
+.prenom{
+    align-items: flex-start;
+}
+.email{
+    align-items: flex-start;
+}
+.service{
+    align-items: flex-start;
+}
+.nom{
+    align-items: flex-start;
+}
+.for-b{
+    margin: none;
+    height: 18vw;
+    flex-direction: column;
+}
+.message-foot{
+    height: 30vw;
+    width: 60.5vw;
+    margin-top: 3vw;
+    border: 1px solid rgba(0, 0, 0, 0.447);
+
+}
+.message{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 2vw;
+    margin-left: 1vw;
+}
+.bouton-form{
+    margin-top: 4.5vw;
+    margin-left: 18vw;
+    height: 5vw;
+    width: 30vw;
+    background-color:#E963A4;
+}
+.foot-b{
+    height: 80vw;
+    width: 80vw;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -5vw;
+    justify-content: space-between;
+}
+.pied{
+    transform: none;
+
+}
+.pied0{
+    transform: none;
+
+}
+.pied1{
+    margin-left: 8vw;
+    margin-top: 10vw;
+}
+.pied-logo{
+    height: 8vw;
+    width: 14vw;
+    transform: translateX(-2vw);
+    cursor: pointer;
+}
+.hr-foot{
+    width: 90vw;
+    position: relative;
+    bottom: 5vw;
+    background-color: rgba(255, 255, 255, 0.134);
+}
+.fin{
+    height: 20vw;
+    width: 90vw;
+    margin-top: -25vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.fin-g{
+    text-align: center;
+}
+/*fin du s'footer*/
+
+
+
+
+
+
+
+
 }
 
 

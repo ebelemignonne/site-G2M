@@ -24,11 +24,21 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.white-degradé{
+    font-size: 1.3vw;
+    line-height: 2vw;
+    color: rgba(255, 255, 255, 0.447);
+}
 .police-degradé{
     font-size: 1.3vw;
     line-height: 2vw;
 
     color: rgba(0, 0, 0, 0.447);
+}
+.white{
+    font-size: 1.3vw;
+    line-height: 2vw;
+    color: white;
 }
 .police-p{
     font-size: 1.3vw;
@@ -193,6 +203,18 @@ li:hover{
     border-radius: 100%;
     background-color: #555879;
 }
+.icone-footer{
+    height: 3vw;
+    width: 3vw;
+    border: none;
+    border-radius: 100%;
+    background-color: #6F7398;
+}
+.champ{
+    width: 25vw;
+    border: 1px solid rgba(0, 0, 0, 0.447);
+}
+
 /*fin des composants*/
 
 
@@ -628,6 +650,106 @@ i{
     background-color: #ECEDF3;
 }
 /*fin section s'abonner*/
+
+
+/*debut  footer*/
+.footer{
+    height: 100vw;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #56597A;
+}
+.ecrit{
+    height: 10vw;
+    justify-content: space-evenly ;
+}
+.formulair{
+    height: 50vw;
+    width: 80%;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.form1{
+    height: 40vw;
+    width: 80%;
+    justify-content: center;
+}
+.for-a{
+    margin: 1vw;
+}
+.prenom{
+    align-items: flex-start;
+}
+.email{
+    align-items: flex-start;
+}
+.service{
+    align-items: flex-start;
+}
+.nom{
+    align-items: flex-start;
+}
+.for-b{
+    margin: 1vw;
+}
+.message-foot{
+    height: 13vw;
+    width: 60.5vw;
+    border: 1px solid rgba(0, 0, 0, 0.447);
+
+}
+.message{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 2vw;
+    margin-left: 1vw;
+}
+.bouton-form{
+    margin-top: 3vw;
+    margin-left: 28.5vw;
+    color: white;
+    background-color:#E963A4;
+}
+.foot-b{
+    height: 20vw;
+    width: 90vw;
+    margin-top: -5vw;
+    justify-content: space-between;
+}
+.pied{
+    transform: translateX(-6vw);
+
+}
+.pied0{
+    transform: translateX(-10vw);
+
+}
+.pied1{
+    margin-right: -5vw;
+    margin-top: -8vw;
+}
+.pied-logo{
+    height: 8vw;
+    width: 14vw;
+    transform: translateX(-2vw);
+    cursor: pointer;
+}
+.hr-foot{
+    width: 90vw;
+    position: relative;
+    bottom: 5vw;
+    background-color: rgba(255, 255, 255, 0.134);
+}
+.fin{
+    height: 5vw;
+    width: 90vw;
+}
+.fin-d{
+    margin-right: -30vw;
+}
+/*fin du s'footer*/
 
 
 
