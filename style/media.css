@@ -25,22 +25,22 @@
 
     /*proprietées*/
     .police-p{
-        font-size: 3.1vw;
+        font-size: 3vw;
         line-height: 5.2vw;
 
     }
     .white{
-        font-size: 3.1vw;
+        font-size: 3vw;
         line-height: 4vw;
         color: white;
     }
     .police-degradé{
-        font-size: 3.1vw;
+        font-size: 3vw;
         line-height: 4vw;
         color: rgba(0, 0, 0, 0.447);
     }
     .white-degradé{
-        font-size: 3.1vw;
+        font-size: 3vw;
         line-height: 4vw;
         color: rgba(255, 255, 255, 0.447);
     }
