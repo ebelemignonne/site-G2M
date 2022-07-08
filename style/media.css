@@ -1,6 +1,6 @@
 /*propriete media quere desktop*/
 @media screen and (min-width: 601px) {
-    .fin-g1,.p-foot1,.p-abonner1,.p-header1,.h1-head1,.fin-g1, .h1-foot1,.h4-projet1, .h1-mission1, .menu, .p-bas-header1, .h4-strategie1, .p-strategie1, .h4-service1, .p-services1{
+    .toggle,.fin-g1,.p-foot1,.p-abonner1,.p-header1,.h1-head1,.fin-g1, .h1-foot1,.h4-projet1, .h1-mission1, .menu, .p-bas-header1, .h4-strategie1, .p-strategie1, .h4-service1, .p-services1{
         display: none;
     }
 }
@@ -14,7 +14,7 @@
 /*propriete media quere mobile*/
 @media screen and (max-width: 600px) {
     /*display none*/
-    .fin-g,.p-foot,.p-abonner,.p-header,.h1-head,.fin-d, .fin-d1, .h1-foot,.linkeding, .facebook2, .projet-b-D,.h4-projet, .h1-mission, .b1, .p-bas-header, .header-b, .h4-strategie, .p-strategie, .h4-service, .p-services, .h4-valeure{
+    .menu,.fin-g,.p-foot,.p-abonner,.p-header,.h1-head,.fin-d, .fin-d1, .h1-foot,.linkeding, .facebook2, .projet-b-D,.h4-projet, .h1-mission, .b1, .p-bas-header, .header-b, .h4-strategie, .p-strategie, .h4-service, .p-services, .h4-valeure{
             display: none;
         }
     ul, label{
@@ -163,12 +163,14 @@
 
     nav{
         height: 20vw;
+        width: 100vw;
     }
     .logo{
         height: 17vw;
         width: 25vw;
         cursor: pointer;
-        transform: translateX(4vw);
+        right: -1vw;
+        position: relative;
     }
     .b1{
         padding-left: 2.5vw;
@@ -183,6 +185,7 @@
         font-size: 3vw;
     }
     .langue{
+        transform: translateX(2vw);
         cursor: pointer;
         height: 3vw;
         width: 3vw;
@@ -191,11 +194,68 @@
         transform: translateX(-10vw);
     
     }
-
-    .menu{
-        width: 10vw;
+    .toggle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        font-size: 2em;
+        left: -15vw;
         height: 10vw;
-        transform: translateX(-8vw);
+        width: 10vw;
+        border: 3px solid white;
+        border-radius: 100%;
+        z-index: 20;
+        cursor: pointer;
+    }
+    .ouvrire{
+        display: block;
+    }
+    .fermers{
+        display: block;
+    }
+    .open .fermers {
+        display: none;
+    }
+
+    .open .ouvrire {
+        display: block;
+    }
+    .menu1{
+        position: absolute;
+        display: flex;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        justify-content: flex-end;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #801818;
+        transform: translateX(100%);
+        transform: translateY(12%);
+        transition: transform 1s;
+    }
+    .menu1 li a {
+        font-size: 4vw;
+    }
+    .menu1 li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: none;
+        width: 50%;
+        border-bottom: 3px solid white;
+        height: 10vw;
+        background-color: #6F7398;
+        list-style-type: none;
+        padding: none;
+        padding-left: none;
+        padding-right: none;
+    }
+    .open .menu1{
+        transform: translateX(0);
+        transform: translateY(-100%);
     }
 /*fin nav bar*/
 

@@ -14,23 +14,26 @@
     <header>                                                        
         <nav>     <!--debut nav-->
             <img class="logo" src="image/logo.png" alt="logo">
-            <ul>
-                <li><a href="">A propos</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Missions</a></li>
-                <li><a href="">Projets</a></li>
-                <li><a href="">Contact</a></li>
+            <ul class="menu1" >
+                <li><a href="#">A propos</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Missions</a></li>
+                <li><a href="#">Projets</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
             <button class="b1 bouton1 police-p bonne">DEVIS</button>
-            <p class="p1 police-p">Français</p>
             <img class="langue" src="icone/translate.png" alt="langue">
-            <select class="cs-select cs-skin-rotate">
-                <option value="" disabled selected>Français</option>
-                <option value="1">Français</option>
-                <option value="2">Anglais</option>
-                <option value="3">Chinois</option>
-                <option value="4">Arabe</option>
+            <select class="cs-select white cs-skin-rotate">
+                <option class="white" value="" disabled selected>Français</option>
+                <option class="white" value="1">Français</option>
+                <option class="white" value="2">Anglais</option>
+                <option class="white" value="3">Chinois</option>
+                <option class="white" value="4">Arabe</option>
             </select>
+            <div class="toggle">
+                <i class="ouvrire fa-solid fa-bars"></i>
+                <i class="fermers fa-solid fa-xmark"></i>
+            </div>
             <img class="menu" src="mobile/menu (1).png" alt="">
         </nav>     <!--fin nav-->
         <div class="contenaire-header column">
@@ -43,7 +46,9 @@
                     <p class="p-header1 police-p">Nous sommes une entreprise de <br> consulting (Conseil) en Management <br> dans la gestion de projets et <br> organisation des entreprise PME et <br> TPE et mise en place des Stratégies</p>
                     <div class="bas-header inline">
                         <button class="button-heder rose bouton1 police-p">CONTACTEZ NOUS</button>
-                        <button class="play center"><i id="i-play" class="fa-solid fa-play"></i></button>
+                        <button class="play center"><i id="i-play" class="fa-solid fa-play"><video width="320" height="240" controls>
+                            <source src="video/Future - HOLY GHOST (Official Music Video).mp4" type="video/ogg">
+                        </video></i></button>
                         <p class="p-bas-header police-p">Jouer la vidéo  3:14</p>
                         <p class="p-bas-header1 police-p">vidéo  3:14</p>
                     </div>
@@ -165,8 +170,9 @@
             </div>
             <div class="mission-D center">
                 <div class="mission-D-A center">
-                    <img class="play1 icon-services" src="icone/play.png" alt="bouton play">
-                </div>
+                    <button class="play1 center"><i id="i-play1" class="fa-solid fa-play"><video width="320" height="240" controls>
+                        <source src="video/Future - HOLY GHOST (Official Music Video).mp4" type="video/ogg">
+                    </video></i></button>                </div>
             </div>
         </div>
         <div class="projet column">
@@ -177,8 +183,8 @@
                     <h1 class="h1-projet titre1">PROJETS & CLIENTS</h1>
                 </div>
                 <div class="projet-a2 center">
-                    <img src="icone/arrow-right.png" alt="" class="img-projet1 icon-services">
-                    <img src="icone/arrow-right.png" alt="" class="img-projet2 icon-services">
+                    <button class="fleche1 cercle3"><i class="fa-solid fa-angle-left"></i></button>
+                    <button class="fleche2 cercle3"><i class="fa-solid fa-angle-right"></i></button>
                 </div>
             </div>
             <div class="projet-b inline">
@@ -213,8 +219,8 @@
                     lorem ipsum dolor sit amet consectetur adipiscing elit. ut elit <br> tellus luctus nec ullamcorper mattis , lorem ipsum dolor sit <br> amet consectetur adipiscing elit. ut elit tellus luctus nec <br> ullamcorper mattis
                 </p>
                 <div class="temoignage-a2">
-                    <img src="icone/arrow-right.png" alt="" class="img-projet1 icon-services">
-                    <img src="icone/arrow-right.png" alt="" class="img-projet2 icon-services">
+                    <button class="fleche1 cercle3"><i class="fa-solid fa-angle-left"></i></button>
+                    <button class="fleche2 cercle3"><i class="fa-solid fa-angle-right"></i></button>
                 </div>
 
             </div>
@@ -326,5 +332,6 @@
     </div>
 </footer>
 <!--fin du footer-->
+<script src="app.js/java.js"></script>
 </body>
 </html>
