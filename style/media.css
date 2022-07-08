@@ -208,19 +208,18 @@
         z-index: 20;
         cursor: pointer;
     }
-    .ouvrire{
-        display: block;
-    }
-    .fermers{
-        display: block;
-    }
-    .open .fermers {
+    .fermer{
         display: none;
     }
-
     .open .ouvrire {
         display: block;
     }
+  
+    .open .fermer {
+        display: none;
+    }
+
+
     .menu1{
         position: absolute;
         display: flex;
