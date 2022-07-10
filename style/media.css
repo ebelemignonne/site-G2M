@@ -19,13 +19,7 @@
 }
 
 
-/*end media quere desktop*/
-
-
-
-
-/*propriete media quere mobile*/
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
     /*star display none*/
     .menu,.fin-g,.p-foot,.p-abonner,.p-header,.h1-head,.fin-d, .fin-d1, .h1-foot,.linkeding, .facebook2, .projet-b-D,.h4-projet, .h1-mission, .b1, .p-bas-header, .header-b, .h4-strategie, .p-strategie, .h4-service, .p-services, .h4-valeure{
             display: none;
@@ -306,22 +300,6 @@
     .navbar__link:hover > a::after {
         width: 100%;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     .logo{
         height: 17vw;
         width: 25vw;
@@ -337,21 +315,15 @@
     }
     select{
         transform: translateX(-10vw);
-    
     }
     /*declaration des variables css*/
 
-
-
-/*end nav bar*/
-
-
 /*star contenre header*/
-header{
+    header{
     height: 200vw;
     width: 100vw;
 
-}
+    }
     .contenaire-header{
         height: 170vw;
         justify-content: space-evenly;
