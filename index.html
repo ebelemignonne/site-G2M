@@ -12,14 +12,14 @@
 <body>
     <!--debut de la creation du header-->
     <header>                                                        
-        <nav>     <!--debut nav-->
+        <nav class="navbar dark-mode" role="navigation">     <!--debut nav-->
             <img class="logo" src="image/logo.png" alt="logo">
-            <ul class="menu1" >
-                <li><a href="#">A propos</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Missions</a></li>
-                <li><a href="#">Projets</a></li>
-                <li><a href="#">Contact</a></li>
+            <ul class="navbar__links">
+                <li class="navbar__link first"><a href="#">A propos</a></li>
+                <li class="navbar__link second"><a href="#">Services</a></li>
+                <li class="navbar__link third"><a href="#">Missions</a></li>
+                <li class="navbar__link fourd"><a href="#">Projets</a></li>
+                <li class="navbar__link fifth"><a href="#">Contact</a></li>
             </ul>
             <button class="b1 bouton1 police-p bonne">DEVIS</button>
             <img class="langue" src="icone/translate.png" alt="langue">
@@ -30,10 +30,9 @@
                 <option class="white" value="3">Chinois</option>
                 <option class="white" value="4">Arabe</option>
             </select>
-            <div class="toggle">
-                <i class="ouvrire fa-solid fa-bars"></i>
-                <i class="fermer fa-solid fa-xmark"></i>
-            </div>
+            <button class="burger">
+                <span class="bar"></span>
+            </button>
             <img class="menu" src="mobile/menu (1).png" alt="">
         </nav>     <!--fin nav-->
         <div class="contenaire-header column">
@@ -45,10 +44,10 @@
                     <p class="p-header police-p">Nous sommes une entreprise de <br> consulting (Conseil) en <br> Management dans la gestion de projets et organisation <br> des entreprise PME et TPE et mise en place des <br> Stratégies</p>
                     <p class="p-header1 police-p">Nous sommes une entreprise de <br> consulting (Conseil) en Management <br> dans la gestion de projets et <br> organisation des entreprise PME et <br> TPE et mise en place des Stratégies</p>
                     <div class="bas-header inline">
-                        <button class="button-heder rose bouton1 police-p">CONTACTEZ NOUS</button>
-                        <button class="play center"><i id="i-play" class="fa-solid fa-play"><video width="320" height="240" controls>
+                        <button type="reset" class="button-heder rose bouton1 police-p">CONTACTEZ NOUS</button>
+                        <button type="reset" class="play center"><video width="320" height="240" controls>
                             <source src="video/Future - HOLY GHOST (Official Music Video).mp4" type="video/ogg">
-                        </video></i></button>
+                        </video></button>
                         <p class="p-bas-header police-p">Jouer la vidéo  3:14</p>
                         <p class="p-bas-header1 police-p">vidéo  3:14</p>
                     </div>
@@ -56,9 +55,9 @@
                 <div class="header-a-droite ajustage center"></div>
             </div>
             <div class="header-b inline">
-                <button class="facebook icone-header"><i class="fa-brands fa-facebook-f"></i></button>
-                <button class="twitter icone-header"><i class="fa-brands fa-twitter"></i></button>
-                <button class="instagram icone-header"><i class="fa-brands fa-instagram"></i></button>
+                <button type="reset" class="facebook icone-header"><i class="fa-brands fa-facebook-f"></i></button>
+                <button type="reset" class="twitter icone-header"><i class="fa-brands fa-twitter"></i></button>
+                <button type="reset" class="instagram icone-header"><i class="fa-brands fa-instagram"></i></button>
             </div>
         </div>
     </header>      
@@ -170,9 +169,10 @@
             </div>
             <div class="mission-D center">
                 <div class="mission-D-A center">
-                    <button class="play1 center"><i id="i-play1" class="fa-solid fa-play"><video width="320" height="240" controls>
+                    <video width="250" height="160" controls loop poster="">
                         <source src="video/Future - HOLY GHOST (Official Music Video).mp4" type="video/ogg">
-                    </video></i></button>                </div>
+                    </video>
+                </div>
             </div>
         </div>
         <div class="projet column">
@@ -183,8 +183,8 @@
                     <h1 class="h1-projet titre1">PROJETS & CLIENTS</h1>
                 </div>
                 <div class="projet-a2 center">
-                    <button class="fleche1 cercle3"><i class="fa-solid fa-angle-left"></i></button>
-                    <button class="fleche2 cercle3"><i class="fa-solid fa-angle-right"></i></button>
+                    <button type="reset" class="fleche1 cercle3"><i class="fa-solid fa-angle-left"></i></button>
+                    <button type="reset" class="fleche2 cercle3"><i class="fa-solid fa-angle-right"></i></button>
                 </div>
             </div>
             <div class="projet-b inline">
@@ -219,8 +219,8 @@
                     lorem ipsum dolor sit amet consectetur adipiscing elit. ut elit <br> tellus luctus nec ullamcorper mattis , lorem ipsum dolor sit <br> amet consectetur adipiscing elit. ut elit tellus luctus nec <br> ullamcorper mattis
                 </p>
                 <div class="temoignage-a2">
-                    <button class="fleche1 cercle3"><i class="fa-solid fa-angle-left"></i></button>
-                    <button class="fleche2 cercle3"><i class="fa-solid fa-angle-right"></i></button>
+                    <button type="reset" class="fleche1 cercle3"><i class="fa-solid fa-angle-left"></i></button>
+                    <button type="reset" class="fleche2 cercle3"><i class="fa-solid fa-angle-right"></i></button>
                 </div>
 
             </div>
@@ -318,9 +318,9 @@
                 Optimisation</p>
         </div>
         <div class="pied1 inline">
-            <button class="facebook1 icone-footer"><i class="fa-brands fa-facebook-f"></i></button>
-            <button class="twitter1 icone-footer"><i class="fa-brands fa-twitter"></i></button>
-            <button class="instagram1 icone-footer"><i class="fa-brands fa-instagram"></i></button>
+            <button type="reset" class="facebook1 icone-footer"><i class="fa-brands fa-facebook-f"></i></button>
+            <button type="reset" class="twitter1 icone-footer"><i class="fa-brands fa-twitter"></i></button>
+            <button type="reset" class="instagram1 icone-footer"><i class="fa-brands fa-instagram"></i></button>
         </div>
     </div>
     <hr class="hr-foot">

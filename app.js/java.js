@@ -1,11 +1,11 @@
-let toggle = document.querySelector('.toggle');
-let body = document.querySelector('body');
-
-toggle.addEventListener('click', function() {
-    body.classList.toggle('open');
-})
-
-
+function toggleMenu () {
+    const navbar = document.querySelector('.navbar');
+    const burger = document.querySelector('.burger');
+    burger.addEventListener('click', () => {
+        navbar.classList.toggle('show-nav')
+    })
+}
+toggleMenu();
 
 
 
