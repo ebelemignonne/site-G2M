@@ -186,10 +186,11 @@
 
     .navbar__links{
         display: flex;
+        justify-content: space-evenly;
         flex-direction: column;
         text-align: center;
         width:0vw;
-        height:50vw;
+        height:100vw;
         position: absolute;
         top:8vw;
         right: 0;
