@@ -16,7 +16,7 @@
         width: 100%;
 
     }
-
+}
 
 
 /*end media quere desktop*/
@@ -25,7 +25,7 @@
 
 
 /*propriete media quere mobile*/
-@media screen and (max-width:767.98px) {
+@media screen and (max-width:600px) {
     /*star display none*/
     .menu,.fin-g,.p-foot,.p-abonner,.p-header,.h1-head,.fin-d, .fin-d1, .h1-foot,.linkeding, .facebook2, .projet-b-D,.h4-projet, .h1-mission, .b1, .p-bas-header, .header-b, .h4-strategie, .p-strategie, .h4-service, .p-services, .h4-valeure{
             display: none;
