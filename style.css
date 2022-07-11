@@ -5,6 +5,13 @@
     margin: 0;
     padding: 0;
 }
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative;
+}
+
 /*creation des propietees*/
 .inline{
     display: flex;
@@ -183,8 +190,8 @@ li:hover{
     cursor: pointer;
 }
 .cercle3{
-    height: 4vw;
-    width: 4vw;
+    height: 5vw;
+    width: 5vw;
     margin: 0.2vw;
     border-radius: 100%;
     border: 1px solid #ED7F10;
@@ -259,7 +266,7 @@ li:hover{
     color:var(--navbar-color);
     height: 8vw;
     width: 100vw;
-    
+
 }
 .navbar__links{
     display: flex;
@@ -305,8 +312,6 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-
 .logo{
     height: 8vw;
     width: 14vw;
@@ -404,7 +409,6 @@ select{
 #i-play1{
     color:  #ED7F10;
 }
-
 
 .p-bas-header{
     color: white;
@@ -617,6 +621,10 @@ i{
     height: 100%;
     width: 48%;
 }
+.fa-solid{
+    font-size: 2vw;
+}
+
 .pink{background-image: url('image/modele.png');}
 .photo{background-image: url('image/phototgraphe.png');}
 .image-b{
@@ -651,7 +659,6 @@ i{
     left: -7vw;
     background-image: url('image/Group\ 13.png');
 }
-
 .temoignage-a-D{
     height: 70%;
     width: 40vw;
@@ -749,6 +756,7 @@ i{
     display: flex;
     justify-content: space-evenly;
     background-color: #56597A;
+
 }
 .ecrit{
     height: 10vw;
@@ -853,6 +861,7 @@ i{
 }
 .fin-d{
     margin-right: -30vw;
+
 }
 
 /*fin du s'footer*/

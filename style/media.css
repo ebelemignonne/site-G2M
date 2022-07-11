@@ -192,7 +192,7 @@
         width:0vw;
         height:100vw;
         position: absolute;
-        top:8vw;
+        top:15vw;
         right: 0;
         z-index: 1;
         transform: none;
@@ -278,6 +278,7 @@
         align-items: center;
         justify-content: space-between;
         padding: 10px;
+        height: 20vw;
         color: var(--navbar-color);
     }
     .cs-select{
