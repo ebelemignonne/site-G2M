@@ -10,7 +10,12 @@
         width:0;
         background:var(--navbar-color);
         transition:width 1s;
-
+    }
+    .navbar__link > a:hover {
+        letter-spacing: 2px;
+        font-size: 1.5rem;
+        color:var(--navbar-color);
+        transition: 0.5s;
     }
     .navbar__link:hover > a::after {
         width: 100%;
@@ -194,21 +199,26 @@
         position: absolute;
         top:15vw;
         right: 0;
-        z-index: 1;
         transform: none;
         background:var(--navbar-bg-color);
-        transition:all 5s case-in-out;
-
+        transition:width 1s;
     }
+
     .show-nav .navbar__links {
         width: 100vw;
+        transition:width 1s;
+    }
+    .show-nav .navbar__link {
+        width: 100vw;
+        transition:width 1s;
+
     }
     .navbar__link > a {
         display: block;
         padding:1rem;
         font-size: 1.6rem;
         color:var(--navbar-color);
-        transition:all .4s case-in-out;
+        transition:width 1s;
 
     }
     .navbar__link > a:hover {
@@ -216,7 +226,7 @@
         letter-spacing: 5px;
         font-size: 1.6rem;
         color:var(--navbar-color);
-        transition:all .4s case-in-out;
+        transition: 1s;
 
     }
     /*burger*/
@@ -232,6 +242,8 @@
         border: 0.4vw solid var(--navbar-color);
         border-radius: 100%;
         cursor: pointer;
+        transition:all 1s;
+
     }
     .bar{
         display: block;
@@ -242,7 +254,7 @@
         bottom: 3.3vw;
         background:var(--navbar-color); 
         border-radius: 3px;
-        transition:all .5s case-in-out;
+        transition:width 0.1s;
     }
     .show-nav .bar {
         width: 0;
@@ -250,6 +262,8 @@
     }
     .show-nav{
         background-color: #000;
+        transition:width 1s;
+
     }
     .bar::before, .bar::after {
         content:"";
@@ -259,19 +273,23 @@
         border-radius: 3px;
         left: 0px;
         background-color:var(--navbar-color);
-        transform:all .5s case-in-out;
+        transition:width 1s;
     }
     .bar::before{
         transform:translateY(-1.2vw);
     }
     .show-nav .bar::before {
         transform: rotate(45deg);
+        transition:0.5s;
+
     }
     .bar::after{
         transform:translateY(1.2vw);
     }
     .show-nav .bar::after {
         transform: rotate(-45deg);
+        transition:0.5s;
+
     }
     .navbar{
         display: flex;
