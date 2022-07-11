@@ -171,21 +171,7 @@
     /*end propriete*/
 
     /*menu animation*/
-    .show-nav .first {
-        transition:all 1s case ease-out ;
-    }
-    .show-nav .second {
-        transition:all 1s case ease-out ;
-    }
-    .show-nav .third {
-        transition:all 1s case ease-out ;
-    }
-    .show-nav .fourd {
-        transition:all 1s case ease-out ;
-    }
-    .show-nav .fifth {
-        transition:all 1s case ease-out ;
-    }
+
 
     /*star header*/
 
@@ -212,6 +198,14 @@
         width: 100vw;
         transition:width 1s;
 
+    }
+    .show-nav .navbar__link {
+        transform:translateX(0)
+
+
+    }
+    .navbar__link {
+        transform:translateX(101%)
     }
     .navbar__link > a {
         display: block;
@@ -298,6 +292,8 @@
         padding: 10px;
         height: 20vw;
         color: var(--navbar-color);
+        transition:1s;
+
     }
     .cs-select{
         left: -6vw;
